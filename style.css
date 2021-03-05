@@ -95,9 +95,8 @@ span{
     float: right;
     padding-right: 10px;
 }
-.text-card{
+.card-text{
     height: 100px;
-    font-size: 20px;
     text-align: justify;
     padding: 0 7px 0 7px;
 }
@@ -117,5 +116,5 @@ h3{
 }
 .dot{
     float: right;
-    height: 25px;
+    
 }
