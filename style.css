@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+/*  SCROLL BAR */
+
+
+body::-webkit-scrollbar {
+    width: 10px;    
+    height: 0px;    
+    display: block; 
+
+}
+body::-webkit-scrollbar-thumb {
+    background: rgb(44, 145, 44);
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: rgb(97, 96, 96);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+/*  */
+.scrub{
+    color: black;
+}
+.boton{
+    display: flex;
+    float: right;
+}
+#textarea{
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 420px;
+    height: 100px;
+}
+.instagram{
+    font-size: 40px;
+}
+h2{
+    font-family: 'Cookie', cursive;
+    font-size: 3em;
+}
+.multipost-icon{
+width: 30px;
+height: 30px;
+padding: 5px;
+}
+.multipost-icon:hover{
+    background-color: grey;
+    color: white;
+    transition: .3s;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.singlepost-icon{
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    margin-left: 15px;
+}
+.singlepost-icon:hover{
+    background-color: grey;
+    color: white;
+    transition: .3s;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#button-menu{
+    margin-top: 130px;
+    margin-bottom: 25px;
+    margin-left: 45%;  
+}
+
+
+
+
+
+/*  POST CARDS STYLE */
+#singlePost{
+    display: none;
+}
+#heart{
+   color:black;
+   font-weight: bold;
+}
+span{
+    padding-left: 20px;
+    font-size: 25px;
+}
+.card-title{
+    text-align: left;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.date{
+    float: right;
+    padding-right: 10px;
+}
+.text-card{
+    height: 100px;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 7px 0 7px;
+}
+.card{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.card-footer{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h3{
+    font-size: 22px;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 7px;
+}
+.dot{
+    float: right;
+    height: 25px;
+}
